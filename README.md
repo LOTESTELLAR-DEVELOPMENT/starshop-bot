@@ -144,7 +144,7 @@ pip install alembic
 - Heleket: https://heleket.com/
 
 ## Документация Fragment API
-- Документация: https://api.fragment-api.com/docs/
+- Документация: https://fragment-api.com/
 
 ## Автор и поддержка
 Автор: 🩸Chester #LTSDEV🩸
