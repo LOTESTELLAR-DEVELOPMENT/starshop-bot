@@ -1,0 +1,13 @@
+aiogram==3.2.0
+asyncpg
+redis
+python-dotenv
+alembic
+httpx
+aiohttp
+sqlalchemy
+pydantic
+fastapi
+uvicorn
+dataclass-rest
+mulenpay_api
