@@ -15,13 +15,11 @@ branch_labels = None
 depends_on = None
 
 
-def upgrade() -> None:
-    op.alter_column('users',
-                    'invited_byy',
-                    new_column_name='invited_by')
+def upgrade():
+    # Столбец 'invited_byy' отсутствует, поэтому ничего не делаем
+    pass
 
 
-def downgrade() -> None:
-    op.alter_column('users',
-                    'invited_by',
-                    new_column_name='invited_byy')
+def downgrade():
+    # Столбец 'invited_by' не требуется переименовывать обратно
+    pass
